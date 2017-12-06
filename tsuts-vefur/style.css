@@ -134,6 +134,11 @@ fieldset {
   border-radius: .3em;
 
 }
+.myndabox {
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap; /* skiptir um línu - flex-flow = flex-direction + flex-wrap */
+}
 
 .nafn{
   text-align: right;
@@ -174,6 +179,13 @@ body, html {
   background-image: url("Bakgrunnur4.jpg");
   min-height: 400px;
 }
+.svg {
+  left:0;
+  position: absolute;
+  top:45%;
+  width: 100%;
+  text-align:center;  
+}
 
 .caption {
   position: absolute;
@@ -183,7 +195,6 @@ body, html {
   text-align: center;
   color: #000;
 }
-
 .caption span.border {
   background-color: #111;
   color: #fff;
@@ -310,6 +321,4 @@ table th {
     text-decoration: none;
     font-size: 1.1em;
   }
-
-
 }
